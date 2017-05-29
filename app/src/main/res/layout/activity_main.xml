@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tiempor3al.mx.weather.MainActivity">
+
+    <ImageView
+        android:id="@+id/clima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Textview
+        android:id="@+id/temperatura"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/clima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="18"/>
+
+</RelativeLayout>
